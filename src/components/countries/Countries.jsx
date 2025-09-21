@@ -19,7 +19,7 @@ const Countries = ({ countriesPromise }) => {
   return (
     <div>
       <h1>My All Visited Countries: {countries.length}</h1>
-      <h2>Total country visited: {visitedCountries.length}</h2>
+      <h2>Total Visited Countries: {visitedCountries.length}</h2>
       <ol>
         {visitedCountries.map((country) => (
           <li key={country.cca3.cca3}>{country.name.common}</li>
